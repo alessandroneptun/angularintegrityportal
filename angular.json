@@ -1,3 +1,19 @@
-// angular.json
-{  // ...  "projects": {    "my-angular-app": {      "projectType": "application",      // ...      "architect": {        "build": {          "builder": "@angular-devkit/build-angular:browser",          "options": {            "outputPath": "dist/my-angular-app",            "index": "src/index.html",            // ...          }        }      }    }  }
+{
+  // ...
+  "projects": {
+    "my-angular-app": {
+      "projectType": "application",
+      // ...
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/my-angular-app",
+            "index": "src/index.html",
+            // ...
+          }
+        }
+      }
+    }
+  }
 }
